@@ -8,10 +8,7 @@ import Login from "./pages/Login.jsx";
 import RolSelect from "./pages/RolSelect.jsx";
 import RegisterStudent from "./pages/RegisterStudent.jsx";
 import RegisterTeacher from "./pages/RegisterTeacher.jsx";
-<<<<<<< HEAD
-=======
 import SelectTeacher from "./pages/SelectTeacher.jsx";
->>>>>>> oscar
 
 const router = createBrowserRouter([
   {
@@ -43,16 +40,10 @@ const router = createBrowserRouter([
     element: <RegisterTeacher />,
   },
   {
-<<<<<<< HEAD
-    path: "/frontend/src/pages/selectTeachersPage/selectTeacher.html",
-    element: <selectTeacher />,
-  }
-=======
     path: "/selectTeacher",
     element: <SelectTeacher />,
   },
 
->>>>>>> oscar
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
