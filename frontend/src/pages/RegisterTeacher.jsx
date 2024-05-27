@@ -141,6 +141,11 @@ function RegisterTeacher() {
               id="tel"
               name="tel"
               required=""
+<<<<<<< HEAD
+=======
+              minLength={10}
+              maxLength={10}
+>>>>>>> oscar
               placeholder="Numero de celular"
               value={form.tel}
               onChange={(e) => setForm({ ...form, tel: e.target.value })}

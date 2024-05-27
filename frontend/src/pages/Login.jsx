@@ -41,9 +41,15 @@ function Login() {
               .then((data) => {
                 if (
                   data.find(
+<<<<<<< HEAD
                     (student) =>
                       student.email === form.email &&
                       student.password === form.password
+=======
+                    (Student) =>
+                      Student.email === form.email &&
+                      Student.password === form.password
+>>>>>>> oscar
                   )
                 ) {
                   navigate(`/home`);
@@ -77,12 +83,19 @@ function Login() {
               aria-hidden="true"
             />
           </div>
+<<<<<<< HEAD
           <div className="recover">¿Olvidaste tu contraseña?</div>
+=======
+>>>>>>> oscar
           <button>Iniciar Sesión</button>
         </form>
         <div className="message">
           ¿No estas registrado?{" "}
+<<<<<<< HEAD
           <Link to={`/rolSelect`}>Crea tu cuenta ahora</Link>
+=======
+          <Link to={`/rolSelect`}> Crea tu cuenta ahora</Link>
+>>>>>>> oscar
         </div>
       </div>
     </>

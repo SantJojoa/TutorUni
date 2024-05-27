@@ -41,10 +41,18 @@ function Home() {
               name="lugar"
             />
 
+<<<<<<< HEAD
             <form action=""></form>
             <button id="searchTutorButton" type="button" >
               Buscar Tutor
             </button>
+=======
+            <Link to="/SelectTeacher">
+              <button id="searchTutorButton" type="button">
+                Buscar Tutor
+              </button>
+            </Link>
+>>>>>>> oscar
           </form>
           <p>
             Encuentra el profesor <span className="blue">ideal</span> para tus
