@@ -25,7 +25,7 @@ function Home() {
       </section>
       <footer>
         <div className="container">
-          <p>© 2024 | Soluciones SKMA</p>
+          <p>© 2024 | Soluciones SKMA |</p>
         </div>
       </footer>
     </>
