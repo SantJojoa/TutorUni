@@ -91,11 +91,8 @@ function RegisterStudent() {
               type="text"
               id="code"
               name="code"
-<<<<<<< HEAD
-=======
               minLength={10}
               maxLength={10}
->>>>>>> oscar
               required
               value={form.code}
               onChange={(e) => setForm({ ...form, code: e.target.value })}
@@ -109,11 +106,8 @@ function RegisterStudent() {
               type="text"
               id="doc"
               name="doc"
-<<<<<<< HEAD
-=======
               minLength={7}
               maxLength={10}
->>>>>>> oscar
               required
               value={form.doc}
               onChange={(e) => setForm({ ...form, doc: e.target.value })}
@@ -126,12 +120,8 @@ function RegisterStudent() {
               id="tel"
               name="tel"
               required
-<<<<<<< HEAD
-              pattern="[0-9]{10}"
-=======
               minLength={10}
               maxLength={10}
->>>>>>> oscar
               value={form.tel}
               onChange={(e) => setForm({ ...form, tel: e.target.value })}
             />
@@ -158,15 +148,9 @@ function RegisterStudent() {
               onChange={(e) => setForm({ ...form, career: e.target.value })}
             >
               <option value="">Seleccione una carrera</option>
-<<<<<<< HEAD
-              <option value="carrera1">Carrera 1</option>
-              <option value="carrera2">Carrera 2</option>
-              <option value="carrera3">Carrera 3</option>
-=======
               <option value="carrera1">- Psicologia</option>
               <option value="carrera2">- Ing. Sistemas</option>
               <option value="carrera3">- Derecho</option>
->>>>>>> oscar
             </select>
             <br />
           </div>

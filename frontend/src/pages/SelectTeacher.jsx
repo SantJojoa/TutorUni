@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-/* eslint-disable no-unused-vars */
-import { Link } from "react-router-dom";
-
-function SelectTeacher() {
-    return (
-        <>
-            <header className="header">
-                <Link to={`/`} className="logo">
-                    TutorUni
-                </Link>
-                <nav className="navbar">
-                    <Link to={`/`}>Cerrar Sesión</Link>
-                </nav>
-            </header>
-            <section className="hero">
-                <div className="container">
-                    <h3>Empecemo</h3>
-                </div>
-            </section>
-        </>
-    )
-}
-=======
 import "./../styles/selectTeacher.css";
 
 import { Link } from "react-router-dom";
@@ -57,4 +33,3 @@ function Home() {
 }
 
 export default Home;
->>>>>>> oscar
