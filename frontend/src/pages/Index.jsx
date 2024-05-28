@@ -22,7 +22,7 @@ function Index() {
           <h1>Bienvenido a TutorUni</h1>
           <h3>Únete a nosotros!</h3>
           <p>
-            estamos aquí para hacer que tu experiencia universitaria sea mucho
+            Estamos aquí para hacer que tu experiencia universitaria sea mucho
             más amigable y menos estresante. Encontramos que muchos estudiantes
             se enfrentan a desafíos como entender conceptos complicados, lidiar
             con una sobrecarga de información o simplemente necesitar un poco de
@@ -35,13 +35,13 @@ function Index() {
           </div>
         </div>
         <div className="home-sci">
-          <a href="https://www.unicesmag.edu.co/">
+          <a target="_blank" href="https://www.unicesmag.edu.co/">
             <i className="bx bx-world" />
           </a>
-          <a href="https://www.instagram.com/unicesmagoficial/">
+          <a target="_blank" href="https://www.instagram.com/unicesmagoficial/">
             <i className="bx bxl-instagram-alt" />
           </a>
-          <a href="https://github.com/SantJojoa/Tutor-Uni">
+          <a target="_blank" href="https://github.com/SantJojoa/Tutor-Uni">
             <i className="bx bxl-github" />
           </a>
         </div>
