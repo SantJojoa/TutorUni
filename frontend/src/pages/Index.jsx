@@ -35,7 +35,6 @@ function Index() {
           </div>
         </div>
         <div className="home-sci">
-<<<<<<< HEAD
           <a href="https://www.unicesmag.edu.co/">
             <i className="bx bx-world" />
           </a>
@@ -43,15 +42,6 @@ function Index() {
             <i className="bx bxl-instagram-alt" />
           </a>
           <a href="https://github.com/SantJojoa/Tutor-Uni">
-=======
-          <a href="https://www.unicesmag.edu.co/" target="_blank" rel="noopener noreferrer">
-            <i className="bx bx-world" />
-          </a>
-          <a href="https://www.instagram.com/unicesmagoficial/" target="_blank" rel="noopener noreferrer">
-            <i className="bx bxl-instagram-alt" />
-          </a>
-          <a href="https://github.com/SantJojoa/TutorUni.git" target="_blank" rel="noopener noreferrer">
->>>>>>> oscar
             <i className="bx bxl-github" />
           </a>
         </div>

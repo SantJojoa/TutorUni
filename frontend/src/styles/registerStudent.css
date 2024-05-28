@@ -83,13 +83,8 @@
 }
 
 .registerStudentWrapper {
-<<<<<<< HEAD
     width: 920px;
     height: 610px;
-=======
-    width: 850px;
-    height: 560px;
->>>>>>> oscar
     padding: 2rem 1rem;
     margin: 50px auto;
     margin-top: 150px;
@@ -146,19 +141,13 @@ h2 {
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
 .careerTipe,
-=======
->>>>>>> oscar
 button:hover {
     background: #0074a2;
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .careerTipe,
-=======
->>>>>>> oscar
 input:focus {
     border: 2px solid #00abf0;
 }
@@ -175,10 +164,7 @@ input:focus {
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .careerTipe,
-=======
->>>>>>> oscar
 .login a:hover {
     color: #0074a2;
 }
@@ -189,10 +175,7 @@ input:focus {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .careerTipe,
-=======
->>>>>>> oscar
 .recover:hover {
     color: #00abf0;
 }
